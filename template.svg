@@ -208,7 +208,7 @@
 .circlexx
 {
    opacity:1;
-   fill:#e0e0e0;
+   fill: #c0c0c0;
    stroke:#000000;
    stroke-width:0.5;
 }
@@ -234,7 +234,7 @@
 .unxx
 {
    opacity:0;
-   fill:#e0e0e0;
+   
    stroke:#000000;
    stroke-width:0.3;
 }
@@ -248,7 +248,7 @@
 .noxx
 {
    opacity:1;
-   fill:#e0e0e0;
+   
    stroke:#000000;
    stroke-width:0.5;
 }
@@ -258,7 +258,7 @@
  */
 .landxx
 {
-   fill: #e0e0e0;
+   fill: #c0c0c0;
    stroke:#ffffff;
    stroke-width:0.5;
    fill-rule:evenodd;
@@ -269,7 +269,7 @@
  */
 .coastxx
 {
-   fill: #e0e0e0;
+   fill: #c0c0c0;
    stroke:#ffffff;
    stroke-width:0.3;
    fill-rule:evenodd;
@@ -280,7 +280,7 @@
  */
 .limitxx
 {
-   fill: #e0e0e0;
+   fill: #c0c0c0;
    stroke:#ffffff;
    stroke-width:0;
    fill-rule:evenodd;
@@ -291,7 +291,7 @@
  */
 .antxx
 {
-   fill: #e0e0e0;
+   fill: #c0c0c0;
    stroke:#ffffff;
    stroke-width:0;
    fill-rule:evenodd;
@@ -9334,7 +9334,7 @@
        cy="450.23166"
        cx="1379.9952"
        class="circlexx sz"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <path
      id="mn"
@@ -9593,7 +9593,7 @@
        cy="643.4812"
        cx="1154.4216"
        class="circlexx gm"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="qa"
@@ -9653,7 +9653,7 @@
        cy="483.44797"
        cx="1534.2589"
        class="circlexx ps"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="bn"
@@ -9680,7 +9680,7 @@
        cy="720.98956"
        cx="2145.6943"
        class="circlexx bn"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="tt"
@@ -9707,7 +9707,7 @@
        cy="668.18762"
        cx="804.4881"
        class="circlexx tt"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="cv"
@@ -9758,7 +9758,7 @@
        cy="620.5415"
        cx="1088.7306"
        class="circlexx cv"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="ws"
@@ -9785,7 +9785,7 @@
        cy="877.04901"
        cx="2694.5093"
        class="circlexx ws"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="lu"
@@ -9804,7 +9804,7 @@
        cy="331.7099"
        cx="1320.9082"
        class="circlexx lu eu"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="km"
@@ -9835,7 +9835,7 @@
        cy="862.79865"
        cx="1603.8311"
        class="circlexx km"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="mu"
@@ -9854,7 +9854,7 @@
        cy="933.35559"
        cx="1700.8033"
        class="circlexx mu"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="st"
@@ -9881,7 +9881,7 @@
        cy="751.57587"
        cx="1322.9935"
        class="circlexx st"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="dm"
@@ -9900,7 +9900,7 @@
        cy="625.19409"
        cx="812.70441"
        class="circlexx dm"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="to"
@@ -9926,7 +9926,7 @@
        cy="942.448"
        cx="2657.3086"
        class="circlexx to"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="fm"
@@ -9945,7 +9945,7 @@
        cy="695.96448"
        cx="2477.9724"
        class="circlexx fm"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="bh"
@@ -9964,7 +9964,7 @@
        cy="531.45422"
        cx="1645.5894"
        class="circlexx bh"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="pw"
@@ -9983,7 +9983,7 @@
        cy="691.09845"
        cx="2292.3694"
        class="circlexx pw"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="sc"
@@ -10002,7 +10002,7 @@
        cy="795.02222"
        cx="1695.2422"
        class="circlexx sc"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="ag"
@@ -10028,7 +10028,7 @@
        cy="610.82959"
        cx="810.45538"
        class="circlexx ag"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="bb"
@@ -10047,7 +10047,7 @@
        cy="646.01306"
        cx="821.84271"
        class="circlexx bb"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="vc"
@@ -10066,7 +10066,7 @@
        cy="648.65448"
        cx="810.19965"
        class="circlexx vc"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="lc"
@@ -10085,7 +10085,7 @@
        cy="637.63452"
        cx="804.06543"
        class="circlexx lc"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="gd"
@@ -10104,7 +10104,7 @@
        cy="655.89081"
        cx="800.45636"
        class="circlexx gd"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="mt"
@@ -10123,7 +10123,7 @@
        cy="450.23166"
        cx="1379.9952"
        class="circlexx mt eu"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="mv"
@@ -10142,7 +10142,7 @@
        cy="730.37396"
        cx="1784.2205"
        class="circlexx mv"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="kn"
@@ -10168,7 +10168,7 @@
        cy="611.47681"
        cx="797.29822"
        class="circlexx kn"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      transform="matrix(1.1941522,0,0,1.1941522,62.074817,-13.491273)"
@@ -10189,7 +10189,7 @@
        cy="712.97375"
        cx="2510.8298"
        class="circlexx mh"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="li"
@@ -10208,7 +10208,7 @@
        cy="352.9209"
        cx="1343.177"
        class="circlexx li"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="sm"
@@ -10227,7 +10227,7 @@
        cy="380.69287"
        cx="1364.4362"
        class="circlexx sm"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="tv"
@@ -10246,7 +10246,7 @@
        cy="830.45178"
        cx="2628.5535"
        class="circlexx tv"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="nr"
@@ -10265,7 +10265,7 @@
        cy="741.48309"
        cx="2532.7034"
        class="circlexx nr"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="mc"
@@ -10284,7 +10284,7 @@
        cy="381.30396"
        cx="1327.1534"
        class="circlexx mc"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="va"
@@ -10303,7 +10303,7 @@
        cy="398.09601"
        cx="1364.5283"
        class="circlexx va"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <g
      id="sg"
@@ -10322,7 +10322,7 @@
        cy="748.10004"
        cx="2065.0579"
        class="circlexx sg"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
   <path
      style="fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.59699804;stroke-miterlimit:4;stroke-dasharray:none"
@@ -10653,7 +10653,7 @@
          d="m 2600.3086,742.38365 c 0.229,-0.648 0.167,-1.237 -0.72,-0.5 0.241,0.167 0.481,0.334 0.72,0.5" />
     </g>
     <circle
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5"
+       style="opacity:1;stroke:#000000;stroke-width:0.5"
        r="6.0130301"
        id="ki."
        cy="743.23413"
@@ -11251,6 +11251,6 @@
        cy="391.83972"
        cx="1287.8888"
        class="circlexx ad"
-       style="opacity:1;fill:#e0e0e0;stroke:#000000;stroke-width:0.5" />
+       style="opacity:1;stroke:#000000;stroke-width:0.5" />
   </g>
 </svg>
