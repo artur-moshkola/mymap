@@ -4,5 +4,8 @@ param (
 
 .\Generate-Map
 
-$command = "& `"$inkscape`" -z -e mymap.png -w 1280 -y 0 mymap.svg";
+$command = "& `"$inkscape`" -z -e mymap.png -w 4960 -y 0 mymap.svg";
+Invoke-Expression $command
+
+$command = "& `"$inkscape`" -z -e mymapthb.png -w 800 -y 0 mymap.svg";
 Invoke-Expression $command
