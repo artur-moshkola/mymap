@@ -36,3 +36,25 @@ $homes | %{
 $src = Get-Content template.svg -Raw -Encoding UTF8
 $dst = $src.Replace("/* DYN STYLE PLACEHOLDER */", $css)
 $dst | Set-Content -Encoding UTF8 -Path mymap.svg
+
+$states = Select-Xml -Path mytrips.xml -XPath "/trips/trip/country[@id=""us""]/state" | Select-Object -ExpandProperty Node | Group-Object -Property id
+
+$summary_states = @{}
+$states | %{
+	$i = @{count = $_.Count}
+	$i.staysum = $_.Group | Measure-Object -Property stay -Sum | Select-Object -ExpandProperty Sum
+	$o = New-Object -TypeName PSObject –Prop $i
+	$summary_states.Add($_.Name, $o)
+}
+$css_states = ""
+$summary_states.Keys | %{
+	$itm = $summary_states.Item($_)
+	$rate = $itm.staysum * 3.33
+	$color = Generate-Color $rate
+	$upk = $_.ToUpper()
+	$css_states = "$css_states#$upk { fill: $color; }`n"
+}
+
+$src = Get-Content template-us.svg -Raw -Encoding UTF8
+$dst = $src.Replace("/* DYN STYLE PLACEHOLDER */", $css_states)
+$dst | Set-Content -Encoding UTF8 -Path mymapus.svg
