@@ -1,0 +1,20 @@
+name: BuildMap
+on:
+  push:
+    branches: [ master ]
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: cd ${{ github.workspace }}
+      - shell: pwsh
+        run: ./Generate-Map.ps1
+      - run: |
+          mkdir maps
+          cp mymap.svg maps/
+          cp mymapus.svg maps/
+      - uses: actions/upload-artifact@v2
+        with: 
+          name: maps
+          path: maps

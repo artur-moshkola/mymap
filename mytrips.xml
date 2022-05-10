@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trips
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="trips.xsd"
+	version="2019-01-04">
+	<home id="ua"/>
+	<trip name="Gogol">
+		<period from="2016-06-26" to="2016-06-28" />
+		<country id="pl" stay="3" />
+	</trip>
+	<trip name="Austro-Hungarian">
+		<period from="2016-10-23" to="2016-10-26" />
+		<country id="pl" stay="0" />
+		<country id="cz" stay="2" />
+		<country id="at" stay="0" />
+		<country id="hu" stay="1" />
+	</trip>
+	<trip name="Tatry Ski">
+		<period from="2017-02-26" to="2017-03-04" />
+		<country id="pl" stay="7" />
+		<country id="sk" stay="0" />
+	</trip>
+	<trip name="English SQL">
+		<period from="2017-09-08" to="2017-09-12" />
+		<country id="pl" stay="0" />
+		<country id="uk" stay="4" />
+	</trip>
+	<trip name="Benelux">
+		<period from="2017-11-18" to="2017-11-21" />
+		<country id="de" stay="2" />
+		<country id="nl" stay="0" />
+		<country id="be" stay="1" />
+	</trip>
+	<trip name="Spagetti">
+		<period from="2018-03-07" to="2018-03-12" />
+		<country id="it" stay="5" />
+		<country id="va" stay="0" />
+	</trip>
+	<trip name="Spain">
+		<period from="2018-05-02" to="2018-05-09" />
+		<country id="hu" stay="0" />
+		<country id="es" stay="7" />
+	</trip>
+	<trip name="Operation Blyaha">
+		<period from="2018-10-11" to="2018-10-14" />
+		<country id="lt" stay="2" />
+		<country id="pl" stay="0" />
+	</trip>
+	<trip name="Portugal">
+		<period from="2018-10-30" to="2018-11-04" />
+		<country id="pl" stay="1" />
+		<country id="pt" stay="4" />
+	</trip>
+	<trip name="Wise">
+		<period from="2018-11-04" to="2018-11-13" />
+		<country id="nl" stay="8" />
+		<country id="de" stay="1" />
+	</trip>
+	<trip name="Joulupukki">
+		<period from="2018-12-31" to="2019-01-03" />
+		<country id="fi" stay="3" />
+	</trip>
+	<trip name="Paris">
+		<period from="2019-03-07" to="2019-03-11" />
+		<country id="fr" stay="4" />
+	</trip>
+	<trip name="EastCoast">
+		<period from="2019-06-22" to="2019-07-06" />
+		<country id="us" stay="15">
+			<state id="il" stay="2" />
+			<state id="wi" stay="0" />
+			<state id="in" stay="0" />
+			<state id="oh" stay="1" />
+			<state id="mi" stay="0" />
+			<state id="pa" stay="0" />
+			<state id="ny" stay="1" />
+			<state id="nj" stay="0" />
+			<state id="md" stay="1" />
+			<state id="dc" stay="0" />
+			<state id="va" stay="0" />
+			<state id="nc" stay="1" />
+			<state id="sc" stay="0" />
+			<state id="ga" stay="0" />
+			<state id="fl" stay="2" />
+			<state id="fl" stay="1" />
+			<state id="ga" stay="1" />
+			<state id="tn" stay="0" />
+			<state id="ky" stay="0" />
+			<state id="in" stay="0" />
+			<state id="il" stay="2" />
+		</country>
+	</trip>
+	<trip name="Pufflin">
+		<period from="2019-09-04" to="2019-09-07" />
+		<country id="de" stay="3" />
+	</trip>
+	<trip name="Leprepol1">
+		<period from="2020-03-09" to="2020-03-11" />
+		<country id="pl" stay="2" />
+	</trip>
+	<trip name="Egypt">
+		<period from="2021-03-10" to="2021-03-16" />
+		<country id="eg" stay="6" />
+	</trip>
+	<trip name="Albania">
+		<period from="2021-08-17" to="2021-08-26" />
+		<country id="al" stay="9" />
+	</trip>
+	<trip name="Budda">
+		<period from="2021-10-10" to="2021-10-15" />
+		<country id="hu" stay="5" />
+		<country id="at" stay="0" />
+	</trip>
+	<trip name="Leprepol2">
+		<period from="2022-02-04" to="2022-02-04" />
+		<country id="pl" stay="0" />
+	</trip>
+	<trip name="Turkation">
+		<period from="2022-02-11" to="2022-04-16" />
+		<country id="ro" stay="0" />
+		<country id="bg" stay="1" />
+		<country id="tr" stay="64" />
+	</trip>
+	<trip name="Polation">
+		<period from="2022-04-16" to="2022-05-10" />
+		<country id="bg" stay="1" />
+		<country id="ro" stay="0" />
+		<country id="hu" stay="1" />
+		<country id="sk" stay="0" />
+		<country id="pl" stay="23" />
+		<country id="cz" stay="0" />
+	</trip>
+</trips>
