@@ -2,4 +2,4 @@
 *.svg
 *.png
 *.xml
-!/template.svg
+!/template*.svg
