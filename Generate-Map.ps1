@@ -13,8 +13,7 @@ function Generate-Color {
 		[Parameter(Position = 0, Mandatory=$true)]
 		[Int32] $rate
 	)
-	if ($rate -gt 100) { $rate = 100 }
-	[Int32] $g = (100 - $rate) * 2 + 55
+	[Int32] $g = [Math]::Pow((360 - $rate), 10) * 4.239e-24 + 100
 	[Int32] $r = $g * 0.8
 	[Int32] $b = 0
 	'#{0:x2}{1:x2}{2:x2}' -f $r, $g, $b
@@ -23,7 +22,7 @@ function Generate-Color {
 $css = ""
 $summary.Keys | %{
 	$itm = $summary.Item($_)
-	$rate = $itm.staysum * 3.33
+	$rate = $itm.staysum
 	$color = Generate-Color $rate
 	$css = "$css.$_ { fill: $color; }`n"
 }
@@ -49,7 +48,7 @@ $states | %{
 $css_states = ""
 $summary_states.Keys | %{
 	$itm = $summary_states.Item($_)
-	$rate = $itm.staysum * 3.33
+	$rate = $itm.staysum
 	$color = Generate-Color $rate
 	$css_states = "$css_states.$_ { fill: $color; }`n"
 }
