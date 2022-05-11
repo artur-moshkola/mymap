@@ -14,6 +14,14 @@ jobs:
           mkdir maps
           cp mymap.svg maps/
           cp mymapus.svg maps/
+      - name: Install Inkscape
+        run: sudo apt-get install -y inkscape
+      - name: Convert to rasters
+        run: |
+          inkscape -z -e maps/mymap.png -w 4960 -y 0 mymap.svg
+          inkscape -z -e maps/mymapthb.png -w 800 -y 0 mymap.svg
+          inkscape -z -e maps/mymapus.png -w 4960 -y 0 mymapus.svg
+          inkscape -z -e maps/mymapusthb.png -w 800 -y 0 mymapus.svg
       - uses: actions/upload-artifact@v2
         with: 
           name: maps
