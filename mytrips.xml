@@ -4,6 +4,7 @@
 	xsi:noNamespaceSchemaLocation="trips.xsd"
 	version="2019-01-04">
 	<home id="ua"/>
+	<home id="pl"/>
 	<trip name="Gogol">
 		<period from="2016-06-26" to="2016-06-28" />
 		<country id="pl" stay="3" />
@@ -122,12 +123,21 @@
 		<country id="tr" stay="64" />
 	</trip>
 	<trip name="Polation">
-		<period from="2022-04-16" to="2022-05-10" />
+		<period from="2022-04-16" to="2022-05-30" />
 		<country id="bg" stay="1" />
 		<country id="ro" stay="0" />
 		<country id="hu" stay="1" />
 		<country id="sk" stay="0" />
-		<country id="pl" stay="23" />
+		<country id="pl" stay="43" />
+		<country id="cz" stay="0" />
+	</trip>
+	<trip name="Croatian">
+		<period from="2022-06-11" to="2022-06-19" />
+		<country id="sk" stay="0" />
+		<country id="hu" stay="3" />
+		<country id="hr" stay="5" />
+		<country id="hu" stay="2" />
+		<country id="sk" stay="0" />
 		<country id="cz" stay="0" />
 	</trip>
 </trips>
