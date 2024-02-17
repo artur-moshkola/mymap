@@ -19,10 +19,10 @@ jobs:
         run: sudo apt-get install -y inkscape
       - name: Convert to rasters
         run: |
-          inkscape -z -e maps/mymap.png -w 4960 -y 0 mymap.svg
-          inkscape -z -e maps/mymapthb.png -w 800 -y 0 mymap.svg
-          inkscape -z -e maps/mymapus.png -w 4960 -y 0 mymapus.svg
-          inkscape -z -e maps/mymapusthb.png -w 800 -y 0 mymapus.svg
+          inkscape --export-filename=maps/mymap.png -w 4960 -y 0 mymap.svg
+          inkscape --export-filename=maps/mymapthb.png -w 800 -y 0 mymap.svg
+          inkscape --export-filename=maps/mymapus.png -w 4960 -y 0 mymapus.svg
+          inkscape --export-filename=maps/mymapusthb.png -w 800 -y 0 mymapus.svg
       - uses: actions/upload-artifact@v3
         with: 
           name: maps
