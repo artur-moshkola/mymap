@@ -5,6 +5,7 @@
 	version="2019-01-04">
 	<home id="ua"/>
 	<home id="pl"/>
+	<home id="ca"/>
 	<trip name="Gogol">
 		<period from="2016-06-26" to="2016-06-28" />
 		<country id="pl" stay="3" />
