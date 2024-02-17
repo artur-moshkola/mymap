@@ -23,7 +23,7 @@ jobs:
           inkscape --export-filename=maps/mymapthb.png -w 800 -y 0 mymap.svg
           inkscape --export-filename=maps/mymapus.png -w 4960 -y 0 mymapus.svg
           inkscape --export-filename=maps/mymapusthb.png -w 800 -y 0 mymapus.svg
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: 
           name: maps
           path: maps
