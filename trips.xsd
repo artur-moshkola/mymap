@@ -7,6 +7,13 @@
         <xs:element name="home" minOccurs="0" maxOccurs="unbounded">
           <xs:complexType>
             <xs:attribute name="id" type="xs:string" use="required"/>
+			<xs:sequence>
+				<xs:element name="provter" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="id" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
           </xs:complexType>
         </xs:element>
         <xs:element name="trip" minOccurs="0" maxOccurs="unbounded">
@@ -24,6 +31,14 @@
 									<xs:attribute name="stay" type="xs:integer"/>
 									<xs:sequence>
 										<xs:element name="state" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="id" type="xs:string" use="required"/>
+												<xs:attribute name="stay" type="xs:integer"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:sequence>
+										<xs:element name="provter" minOccurs="0" maxOccurs="unbounded">
 											<xs:complexType>
 												<xs:attribute name="id" type="xs:string" use="required"/>
 												<xs:attribute name="stay" type="xs:integer"/>

@@ -56,3 +56,30 @@ $summary_states.Keys | %{
 $src = Get-Content template-us.svg -Raw -Encoding UTF8
 $dst = $src.Replace("/* DYN STYLE PLACEHOLDER */", $css_states)
 $dst | Set-Content -Encoding UTF8 -Path mymapus.svg
+
+$homesca = Select-Xml -Path mytrips.xml -XPath "/trips/home[@id=""ca""]/provter" | Select-Object -ExpandProperty Node
+$provters = Select-Xml -Path mytrips.xml -XPath "/trips/trip/country[@id=""ca""]/provter" | Select-Object -ExpandProperty Node | Group-Object -Property id
+
+$summary_provters = @{}
+$provters | %{
+	$i = @{count = $_.Count}
+	$i.staysum = $_.Group | Measure-Object -Property stay -Sum | Select-Object -ExpandProperty Sum
+	$o = New-Object -TypeName PSObject -Prop $i
+	$summary_provters.Add($_.Name, $o)
+}
+$css_provters = ""
+$summary_provters.Keys | %{
+	$itm = $summary_provters.Item($_)
+	$rate = $itm.staysum
+	$color = Generate-Color $rate
+	$id = $_.ToUpper()
+	$css_provters = "$css_provters#$id { fill: $color; }`n"
+}
+$homesca | %{
+	$id = $_.id.ToUpper()
+	$css_provters = "$css_provters#$id { fill: #00aaff; }`n"
+}
+
+$src = Get-Content template-ca.svg -Raw -Encoding UTF8
+$dst = $src.Replace("/* DYN STYLE PLACEHOLDER */", $css_provters)
+$dst | Set-Content -Encoding UTF8 -Path mymapca.svg

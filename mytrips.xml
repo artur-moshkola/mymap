@@ -5,7 +5,9 @@
 	version="2019-01-04">
 	<home id="ua"/>
 	<home id="pl"/>
-	<home id="ca"/>
+	<home id="ca">
+		<provter id="qc" />
+	</home>
 	<trip name="Gogol">
 		<period from="2016-06-26" to="2016-06-28" />
 		<country id="pl" stay="3" />
@@ -140,5 +142,25 @@
 		<country id="hu" stay="2" />
 		<country id="sk" stay="0" />
 		<country id="cz" stay="0" />
+	</trip>
+	<trip name="Bienvenue">
+		<period from="2022-08-19" to="2022-08-21" />
+		<country id="ca" stay="10">
+			<provter id="on" stay="2" />
+		</country>
+	</trip>
+	<trip name="Passport">
+		<period from="2023-10-16" to="2023-10-16" />
+		<country id="ca" stay="10">
+			<provter id="on" stay="0" />
+		</country>
+	</trip>
+	<trip name="Maritime">
+		<period from="2023-07-25" to="2023-08-03" />
+		<country id="ca" stay="10">
+			<provter id="nb" stay="1" />
+			<provter id="ns" stay="8" />
+			<provter id="nb" stay="0" />
+		</country>
 	</trip>
 </trips>

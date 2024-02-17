@@ -4,14 +4,20 @@ param (
 
 .\Generate-Map
 
-$command = "& `"$inkscape`" -z -e mymap.png -w 4960 -y 0 mymap.svg";
+$command = "& `"$inkscape`" --export-filename=mymap.png -w 4960 -y 0 mymap.svg";
 Invoke-Expression $command
 
-$command = "& `"$inkscape`" -z -e mymapthb.png -w 800 -y 0 mymap.svg";
+$command = "& `"$inkscape`" --export-filename=mymapthb.png -w 800 -y 0 mymap.svg";
 Invoke-Expression $command
 
-$command = "& `"$inkscape`" -z -e mymapus.png -w 4960 -y 0 mymapus.svg";
+$command = "& `"$inkscape`" --export-filename=mymapus.png -w 4960 -y 0 mymapus.svg";
 Invoke-Expression $command
 
-$command = "& `"$inkscape`" -z -e mymapusthb.png -w 800 -y 0 mymapus.svg";
+$command = "& `"$inkscape`" --export-filename=mymapusthb.png -w 800 -y 0 mymapus.svg";
+Invoke-Expression $command
+
+$command = "& `"$inkscape`" --export-filename=mymapca.png -w 4960 -y 0 mymapca.svg";
+Invoke-Expression $command
+
+$command = "& `"$inkscape`" --export-filename=mymapcathb.png -w 800 -y 0 mymapca.svg";
 Invoke-Expression $command
