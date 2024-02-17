@@ -7,7 +7,7 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: cd ${{ github.workspace }}
       - shell: pwsh
         run: ./Generate-Map.ps1
@@ -23,7 +23,7 @@ jobs:
           inkscape -z -e maps/mymapthb.png -w 800 -y 0 mymap.svg
           inkscape -z -e maps/mymapus.png -w 4960 -y 0 mymapus.svg
           inkscape -z -e maps/mymapusthb.png -w 800 -y 0 mymapus.svg
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with: 
           name: maps
           path: maps
