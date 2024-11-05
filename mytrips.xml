@@ -163,4 +163,10 @@
 			<provter id="nb" stay="0" />
 		</country>
 	</trip>
+	<trip name="BeautifulBC">
+		<period from="2024-10-16" to="2024-10-26" />
+		<country id="ca" stay="10">
+			<provter id="bc" stay="10" />
+		</country>
+	</trip>
 </trips>
